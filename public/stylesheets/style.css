@@ -1,7 +1,35 @@
+html,
+body,
+#map {
+  height: 100%;
+}
 body {
-  padding: 50px;
+  padding: 0;
+  margin: 0;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
-a {
+body a {
   color: #00b7ff;
+}
+body h1 {
+  margin: 0;
+}
+body > header {
+  background-color: #09f;
+  padding: 10px;
+  box-sizing: border-box;
+  color: #fff;
+  -moz-box-sizing: border-box;
+}
+body > header fieldset {
+  border: 0;
+  out-line: none;
+}
+body > header fieldset input,
+body > header fieldset button {
+  padding: 5px;
+}
+body > header fieldset input[type='search'] {
+  width: 70%;
+  max-width: 300px;
 }
